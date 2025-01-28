@@ -1,0 +1,12 @@
+# Ignore all the models
+*.pt
+*.pth
+
+# Ignore ROS2 builds and test images
+build/
+install/
+log/
+src/modules/test_images
+
+# Ignore Access token
+token
