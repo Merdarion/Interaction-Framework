@@ -69,11 +69,12 @@ executable = ~/dev_bident/bin python3
 ## To run the Framework: ##
 
 1. Open a terminal and run "load_eyetracker_microphone.sh"
-2. Open a second terminal and run "run_framework.sh"
+2. Open a second terminal and run "framework.sh" or "pps.sh"
 3. Additionally: To record eye tracking data, run "record_eyetracking_data.sh"
 
 To **stop** the Framework:
-- Open another terminal and run "kill_framework.sh"
+- After the trial: Open another Terminal and run "init_robot.sh"
+- Open another terminal and run "shutdown.sh"
 
 Additionally, to stop the eye tracking recording:
 - Go into the terminal that runs "record_eyetracking_data.sh" and hit ctrl+c
